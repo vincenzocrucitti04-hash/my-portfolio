@@ -7,8 +7,6 @@
 
 > Un portfolio moderno e performante costruito con Next.js 14, featuring componenti React modulari e design responsive.
 
-![Portfolio Structure](https://via.placeholder.com/800x400/6366f1/ffffff?text=Next.js+Portfolio+Structure)
-
 ## ✨ Caratteristiche
 
 - ⚡ **Next.js 14** - Performance ottimizzata e SSR
