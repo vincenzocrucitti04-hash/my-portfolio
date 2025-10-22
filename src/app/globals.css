@@ -1,3 +1,4 @@
+/* src/app/globals.css */
 * {
   margin: 0;
   padding: 0;
@@ -12,14 +13,16 @@ body {
   overflow-x: hidden;
 }
 
+/* SOLUZIONE PER NAVBAR FIXED - Aggiungi queste regole */
 html {
-  scroll-padding-top: 100px;
+  scroll-padding-top: 100px; /* Fallback per tutti gli elementi */
 }
 
 section {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 100px; /* Altezza sufficiente per la navbar */
 }
 
+/* Specifica per ogni sezione target */
 #aboutme,
 #skills,
 #projects,
@@ -29,9 +32,10 @@ footer {
   scroll-margin-top: 100px;
 }
 
+/* Per dispositivi mobile - navbar più bassa */
 @media screen and (max-width: 768px) {
   html {
-    scroll-padding-top: 50px;
+    scroll-padding-top: 140px; /* Navbar più alta su mobile */
   }
 
   section {
@@ -206,7 +210,7 @@ body {
 /* Hero Section */
 .hero-section {
   position: relative;
-  margin-top: 80px;
+  margin-top: 80px; /* Compensa la navbar fixed */
 }
 
 .img-intro {
@@ -669,7 +673,7 @@ footer > p:last-child {
 
   /* Hero Section */
   .hero-section {
-    margin-top: 140px;
+    margin-top: 230px;
   }
 
   .img-intro {
@@ -837,13 +841,13 @@ footer > p:last-child {
 
 @media only screen and (width: 375px) and (height: 667px) {
   .hero-section {
-    margin-top: 140px;
+    margin-top: 230px;
   }
 }
 
 @media only screen and (width: 360px) and (height: 740px) {
   .hero-section {
-    margin-top: 140px;
+    margin-top: 230px;
   }
 }
 
