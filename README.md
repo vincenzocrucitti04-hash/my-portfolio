@@ -27,6 +27,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## 📁 Struttura del Progetto
+```
 my-portfolio/
 ├── app/                    # App Router di Next.js 14
 │   ├── globals.css        # Stili globali
@@ -52,3 +53,4 @@ my-portfolio/
 ├── next.config.mjs        # Configurazione Next.js
 ├── package.json           # Dipendenze e scripts
 └── README.md             # Documentazione
+```
