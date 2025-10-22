@@ -1,19 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512"><svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="SvgjsLinearGradient1112" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1"></stop>
-      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1"></stop>
-    </linearGradient>
-  </defs>
-  
-  <!-- Background -->
-  <rect width="512" height="512" rx="80" fill="url(#favGradient)"></rect>
-  
-  <!-- Letter V -->
-  <path d="M 160 140 L 230 380 L 256 380 L 282 380 L 352 140 L 310 140 L 256 310 L 202 140 Z" fill="white" stroke="white" stroke-width="4" stroke-linejoin="round"></path>
-  
-  <!-- Decorative dot -->
-  <circle cx="256" cy="400" r="16" fill="white"></circle>
-</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
-@media (prefers-color-scheme: dark) { :root { filter: none; } }
-</style></svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1392)"><rect width="1000" height="1000" fill="#ffffff"></rect><g transform="matrix(4.5,0,0,4.5,50,50)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200"><rect width="200" height="200" fill="url('#gradient')"></rect><defs><linearGradient id="gradient" gradientTransform="rotate(326 0.5 0.5)"><stop offset="0%" stop-color="#6748ab"></stop><stop offset="100%" stop-color="#272261"></stop></linearGradient><clipPath id="SvgjsClipPath1392"><rect width="1000" height="1000" x="0" y="0" rx="400" ry="400"></rect></clipPath></defs><g><g fill="#ffffff" transform="matrix(8.2989010989011,0,0,8.2989010989011,45.142936594473134,159.00456278769525)" stroke="#000000" stroke-width="0"><path d="M3.77-14.22L6.59-3.87L9.42-14.22L13.25-14.22L8.47 0L4.72 0L-0.03-14.22L3.77-14.22Z"></path></g></g></svg></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(5,0,0,5,0,0)" style="filter: contrast(1) brightness(1)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200"><rect width="200" height="200" fill="url('#gradient')"></rect><defs><linearGradient id="gradient" gradientTransform="rotate(326 0.5 0.5)"><stop offset="0%" stop-color="#6748ab"></stop><stop offset="100%" stop-color="#272261"></stop></linearGradient></defs><g><g fill="#ffffff" transform="matrix(8.2989010989011,0,0,8.2989010989011,45.142936594473134,159.00456278769525)" stroke="#000000" stroke-width="0"><path d="M3.77-14.22L6.59-3.87L9.42-14.22L13.25-14.22L8.47 0L4.72 0L-0.03-14.22L3.77-14.22Z"></path></g></g></svg></svg></g></g></svg></g></svg>
