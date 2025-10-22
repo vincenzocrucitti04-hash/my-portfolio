@@ -3,27 +3,27 @@ import Image from "next/image";
 export default function PhotoGallery() {
   const photos = [
     {
-      src: "/img/2.jpg",
+      src: "/img/img1.jpg",
       alt: "Fotografia paesaggistica di Vincenzo - Foto Personale",
     },
     {
-      src: "/img/3.jpg",
+      src: "/img/imgviaggio.jpg",
       alt: "Fotografia artistica di Vincenzo - Foto artistica paesaggio",
     },
     {
-      src: "/img/4.jpg",
+      src: "/img/img3.jpg",
       alt: "Fotografia di viaggio di Vincenzo - Foto Personale",
     },
     {
-      src: "/img/5.jpg",
+      src: "/img/img4.jpg",
       alt: "Fotografia naturalistica di Vincenzo - Foto estetica",
     },
     {
-      src: "/img/6.jpg",
+      src: "/img/img5.jpg",
       alt: "Fotografia street di Vincenzo - Foto con targhetta",
     },
     {
-      src: "/img/7.jpg",
+      src: "/img/img6.jpg",
       alt: "Fotografia artistica di Vincenzo - Foto artistica paesaggio",
     },
   ];
